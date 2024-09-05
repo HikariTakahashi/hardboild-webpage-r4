@@ -1,5 +1,5 @@
 const WebSocket = require("ws");
-const socket = new WebSocket("ws://localhost:8080");
+const socket = new WebSocket("ws://192.168.0.7:8080");
 
 socket.on("open", function () {
   let angle = 0;
